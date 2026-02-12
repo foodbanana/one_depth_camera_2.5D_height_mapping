@@ -71,6 +71,15 @@ deactivate pose data, allowing the node to be launched with the camera motionles
 
 실행 시 rviz 화면이 뜨면 TF 설정을 올바르게 해주면 실행이 가능합니다
 
+### step3. 세부 설정
+1. map 크기 및 resolution
+<작업폴더경로>/src/elevation-mapping-realsense-d435i/elevation_mapping/config/sensor_processors/realsense_d435i_rtabmap_pose.yaml
+를 들어가면 line34부터 관련 값들이 존재한다
+
+
+
+
+
 
 ## License
 [MIT License](LICENSE)
