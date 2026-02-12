@@ -32,8 +32,8 @@ deactivate pose data, allowing the node to be launched with the camera motionles
 위의 의존성 파일들을 모두 완료하면 위의 rosdep install --from-paths src --ignore-src -r -s 명령어를 쳤을 때 아무것도 출력되지 않습니다. 그러면 그 후
 
     ```bash
-cd ~/<workspace이름>
-rosdep install --from-paths src --ignore-src -r -y
+    cd ~/<workspace이름>
+    rosdep install --from-paths src --ignore-src -r -y
     ```
 을 실행하면 됩니다
 
