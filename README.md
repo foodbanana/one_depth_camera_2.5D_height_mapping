@@ -12,10 +12,9 @@ deactivate pose data, allowing the node to be launched with the camera motionles
 
 
 ### 실제 구동 사진
-[사진 넣기]
-
+![실제 구동 사진](https://github.com/foodbanana/one_depth_camera_2.5D_height_mapping/blob/main/depth_image.png)
 ### 사진 + height map 사진
-[사진 넣기]
+![사진 넣기](https://github.com/foodbanana/one_depth_camera_2.5D_height_mapping/blob/main/Screenshot%20from%202026-02-12%2013-50-38.png)
 
 ### step0.의존성(사전 다운로드)
 - [ROS noetic](http://wiki.ros.org/ROS/Installation)
