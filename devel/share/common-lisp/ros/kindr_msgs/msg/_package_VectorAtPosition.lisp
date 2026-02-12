@@ -1,1 +1,14 @@
-/home/dyros21/260126_tw_ws/devel/.private/kindr_msgs/share/common-lisp/ros/kindr_msgs/msg/_package_VectorAtPosition.lisp
+(cl:in-package kindr_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          TYPE-VAL
+          TYPE
+          NAME-VAL
+          NAME
+          VECTOR-VAL
+          VECTOR
+          POSITION-VAL
+          POSITION
+          POSITION_FRAME_ID-VAL
+          POSITION_FRAME_ID
+))

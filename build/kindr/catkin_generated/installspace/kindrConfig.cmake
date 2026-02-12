@@ -67,14 +67,14 @@ set(kindr_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kindr_SOURCE_PREFIX /home/dyros21/260126_tw_ws/src/kindr)
-  set(kindr_DEVEL_PREFIX /home/dyros21/260126_tw_ws/devel/.private/kindr)
+  set(kindr_SOURCE_PREFIX /home/dyros21/260126_tw_ws_2_backup/src/kindr)
+  set(kindr_DEVEL_PREFIX /home/dyros21/260126_tw_ws_2_backup/devel)
   set(kindr_INSTALL_PREFIX "")
   set(kindr_PREFIX ${kindr_DEVEL_PREFIX})
 else()
   set(kindr_SOURCE_PREFIX "")
   set(kindr_DEVEL_PREFIX "")
-  set(kindr_INSTALL_PREFIX /home/dyros21/260126_tw_ws/install)
+  set(kindr_INSTALL_PREFIX /home/dyros21/260126_tw_ws_2_backup/install)
   set(kindr_PREFIX ${kindr_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dyros21/260126_tw_ws/install/lib;/home/dyros21/260126_tw_ws/devel/lib;/home/dyros21/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/dyros21/260126_tw_ws_2_backup/install/lib;/home/dyros21/260126_tw_ws_2_backup/devel/lib;/home/dyros21/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

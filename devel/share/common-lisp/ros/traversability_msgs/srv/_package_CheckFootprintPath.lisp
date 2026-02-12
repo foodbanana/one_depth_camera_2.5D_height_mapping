@@ -1,1 +1,6 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/common-lisp/ros/traversability_msgs/srv/_package_CheckFootprintPath.lisp
+(cl:in-package traversability_msgs-srv)
+(cl:export '(PATH-VAL
+          PATH
+          RESULT-VAL
+          RESULT
+))

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsPose"
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsPose.pdb"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsPose"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsPose.pdb"
   "CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o"
   "CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o"
   "CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o"

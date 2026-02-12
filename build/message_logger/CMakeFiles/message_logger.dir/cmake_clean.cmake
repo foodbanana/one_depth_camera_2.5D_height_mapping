@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dyros21/260126_tw_ws/devel/.private/message_logger/lib/libmessage_logger.pdb"
-  "/home/dyros21/260126_tw_ws/devel/.private/message_logger/lib/libmessage_logger.so"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/libmessage_logger.pdb"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/libmessage_logger.so"
   "CMakeFiles/message_logger.dir/src/log/log_sentry.cpp.o"
   "CMakeFiles/message_logger.dir/src/time/Time.cpp.o"
   "CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o"

@@ -1,1 +1,0 @@
-/home/dyros21/260126_tw_ws/devel/.private/kindr_msgs/lib/python3/dist-packages/kindr_msgs/__init__.py

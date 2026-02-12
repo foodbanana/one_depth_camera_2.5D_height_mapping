@@ -1,1 +1,4 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/traversability_msgs/cmake/traversability_msgs-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(traversability_msgs_MSG_INCLUDE_DIRS "/home/dyros21/260126_tw_ws_2_backup/src/elevation-mapping-realsense-d435i/traversability_estimation/traversability_msgs/msg")
+set(traversability_msgs_MSG_DEPENDENCIES geometry_msgs)

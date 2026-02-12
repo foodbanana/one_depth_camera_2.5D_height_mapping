@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff"
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff.pdb"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsRotationDiff"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsRotationDiff.pdb"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o"

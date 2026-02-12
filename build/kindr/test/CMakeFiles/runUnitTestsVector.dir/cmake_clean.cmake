@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsVector"
-  "/home/dyros21/260126_tw_ws/devel/.private/kindr/lib/kindr/runUnitTestsVector.pdb"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsVector"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/kindr/runUnitTestsVector.pdb"
   "CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o"
   "CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o"
 )

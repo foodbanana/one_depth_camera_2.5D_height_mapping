@@ -1,8 +1,8 @@
-# Install script for directory: /home/dyros21/260126_tw_ws/src/kindr/test
+# Install script for directory: /home/dyros21/260126_tw_ws_2_backup/src/kindr/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dyros21/260126_tw_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dyros21/260126_tw_ws_2_backup/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/dyros21/260126_tw_ws/devel/.private/message_logger/lib/message_logger/demo"
-  "/home/dyros21/260126_tw_ws/devel/.private/message_logger/lib/message_logger/demo.pdb"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/message_logger/demo"
+  "/home/dyros21/260126_tw_ws_2_backup/devel/lib/message_logger/demo.pdb"
   "CMakeFiles/demo.dir/src/demo.cpp.o"
 )
 

@@ -1,1 +1,8 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/common-lisp/ros/traversability_msgs/msg/_package_TraversabilityResult.lisp
+(cl:in-package traversability_msgs-msg)
+(cl:export '(IS_SAFE-VAL
+          IS_SAFE
+          TRAVERSABILITY-VAL
+          TRAVERSABILITY
+          AREA-VAL
+          AREA
+))

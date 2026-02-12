@@ -1,1 +1,15 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/common-lisp/ros/traversability_msgs/srv/_package.lisp
+(cl:defpackage traversability_msgs-srv
+  (:use )
+  (:export
+   "CHECKFOOTPRINTPATH"
+   "<CHECKFOOTPRINTPATH-REQUEST>"
+   "CHECKFOOTPRINTPATH-REQUEST"
+   "<CHECKFOOTPRINTPATH-RESPONSE>"
+   "CHECKFOOTPRINTPATH-RESPONSE"
+   "OVERWRITE"
+   "<OVERWRITE-REQUEST>"
+   "OVERWRITE-REQUEST"
+   "<OVERWRITE-RESPONSE>"
+   "OVERWRITE-RESPONSE"
+  ))
+

@@ -1,4 +1,4 @@
-prefix=/home/dyros21/260126_tw_ws/install
+prefix=/home/dyros21/260126_tw_ws_2_backup/install
 
 Name: kindr
 Description: Description of kindr

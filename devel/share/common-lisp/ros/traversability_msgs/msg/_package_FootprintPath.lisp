@@ -1,1 +1,12 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/common-lisp/ros/traversability_msgs/msg/_package_FootprintPath.lisp
+(cl:in-package traversability_msgs-msg)
+(cl:export '(POSES-VAL
+          POSES
+          RADIUS-VAL
+          RADIUS
+          FOOTPRINT-VAL
+          FOOTPRINT
+          CONSERVATIVE-VAL
+          CONSERVATIVE
+          COMPUTE_UNTRAVERSABLE_POLYGON-VAL
+          COMPUTE_UNTRAVERSABLE_POLYGON
+))

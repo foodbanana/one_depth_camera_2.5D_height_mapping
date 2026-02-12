@@ -1,1 +1,14 @@
-/home/dyros21/260126_tw_ws/devel/.private/any_node_example/share/any_node_example/cmake/any_node_exampleConfig-version.cmake
+# generated from catkin/cmake/template/pkgConfig-version.cmake.in
+set(PACKAGE_VERSION "0.5.24")
+
+set(PACKAGE_VERSION_EXACT False)
+set(PACKAGE_VERSION_COMPATIBLE False)
+
+if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_EXACT True)
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()
+
+if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()

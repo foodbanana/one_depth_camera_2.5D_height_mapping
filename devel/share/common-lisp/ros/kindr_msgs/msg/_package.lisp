@@ -1,1 +1,7 @@
-/home/dyros21/260126_tw_ws/devel/.private/kindr_msgs/share/common-lisp/ros/kindr_msgs/msg/_package.lisp
+(cl:defpackage kindr_msgs-msg
+  (:use )
+  (:export
+   "<VECTORATPOSITION>"
+   "VECTORATPOSITION"
+  ))
+

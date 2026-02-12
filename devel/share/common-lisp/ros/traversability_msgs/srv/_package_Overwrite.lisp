@@ -1,1 +1,4 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/common-lisp/ros/traversability_msgs/srv/_package_Overwrite.lisp
+(cl:in-package traversability_msgs-srv)
+(cl:export '(ENABLE-VAL
+          ENABLE
+))

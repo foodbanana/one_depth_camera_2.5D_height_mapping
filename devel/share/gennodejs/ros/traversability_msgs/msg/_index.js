@@ -1,1 +1,10 @@
-/home/dyros21/260126_tw_ws/devel/.private/traversability_msgs/share/gennodejs/ros/traversability_msgs/msg/_index.js
+
+"use strict";
+
+let FootprintPath = require('./FootprintPath.js');
+let TraversabilityResult = require('./TraversabilityResult.js');
+
+module.exports = {
+  FootprintPath: FootprintPath,
+  TraversabilityResult: TraversabilityResult,
+};

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kindr"
-PROJECT_SPACE_DIR = "/home/dyros21/260126_tw_ws/install"
+PROJECT_SPACE_DIR = "/home/dyros21/260126_tw_ws_2_backup/install"
 PROJECT_VERSION = "1.3.24"

@@ -1,1 +1,8 @@
-/home/dyros21/260126_tw_ws/devel/.private/kindr_msgs/share/gennodejs/ros/kindr_msgs/msg/_index.js
+
+"use strict";
+
+let VectorAtPosition = require('./VectorAtPosition.js');
+
+module.exports = {
+  VectorAtPosition: VectorAtPosition,
+};
