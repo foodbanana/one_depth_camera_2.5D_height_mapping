@@ -52,8 +52,9 @@ rosdep install --from-paths src --ignore-src -r -y
 2. 패키지 빌드
 
     ```bash
-    cd ~/<workspace이름>/src
+    cd ~/<workspace이름>
     catkin_make
+
     source devel/setup.bash
     ```
 
