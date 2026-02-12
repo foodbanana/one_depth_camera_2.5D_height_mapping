@@ -15,7 +15,6 @@ It can also be used without odometry to solely generate elevation maps.
 ![gif](/elevation_mapping_demos/doc/Video_elevation_mapping.gif)
 
 
-## 의존성(미리 다운받아야 하는 것) 
 
 This software is built on the Robotic Operating System (ROS), which needs to be first. Additionally, the Robot-Centric Elevation Mapping depends on following software:
 
