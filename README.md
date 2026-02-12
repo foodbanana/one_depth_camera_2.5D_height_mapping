@@ -1,4 +1,4 @@
-# ROS 2.5D heigth Mapping with RealSense Camera (d435)
+# ROS 2.5D height Mapping with RealSense Camera (d435)
 
 이 프로젝트는 서울대학교 박재흥 교수님 Dyros 연구실에서 차준혁 박사과정님의 지도를 받으며 동계인턴을 진행한 것입니다. 참고로 d435f 카메라는 IMU 데이터가 없어 rviz상에서는 카메라가 고정되어 있다고 설정했습니다. (추후 tocabi의 imu센서 데이터를 입력으로 넣어줄 예정입니다)
 
