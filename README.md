@@ -53,34 +53,10 @@ This software is built on the Robotic Operating System (ROS), which needs to be 
 
 This is the main Robot-Centric Elevation Mapping node. It uses the distance sensor measurements and the pose and covariance of the robot to generate an elevation map with variance estimates.
 
-
-#### Subscribed Topics
-
-* **`/camera/depth/color/points_downsampled`** ([sensor_msgs/PointCloud2])
-
-    The distance measurements derived from thes d435i are downsampled to every 6 cm, reducing computational load.
-
-* **`/pose`** ([geometry_msgs/PoseWithCovarianceStamped])
-
-    The robot pose and covariance can be obtained from any sensors capable of providing odometry (In here we used odometry from Rtabmap). Additionally, there is a node available to deactivate pose data, allowing the node to be launched with the camera motionless.
-
-#### Published Topics
-
-* **`elevation_map`** ([grid_map_msgs/GridMap])
-
-    The entire (fused) elevation map. It is published periodically (see `fused_map_publishing_rate` parameter) or after the `trigger_fusion` service is called.
-
-* **`traversability_map`** ([grid_map_msgs/GridMap])
-
-	The current traversability map. The traversability map (see the topic `/traversability_map_visualization/roughness_map`) can be configured with the traversability filters. 
+deactivate pose data, allowing the node to be launched with the camera motionless.
 
 
-#### Parameters
 
-Adjust parameters in the launch file to customize the mapping behavior.
-
-* **`robot_pose_with_covariance_topic`** 
-    You can modify the pose and frame for different applications. Additional parameters can be found in the [Robot-Centric Elevation Mapping](https://github.com/ANYbotics/elevation_mapping). 
 
 
 ## Usage
