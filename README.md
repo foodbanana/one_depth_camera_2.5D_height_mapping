@@ -96,6 +96,7 @@ deactivate pose data, allowing the node to be launched with the camera motionles
 
 
 
+## 현재 TF 관련해서 문제가 있어 수정중에 있습니다
 
 ## License
 [MIT License](LICENSE)
